@@ -1,0 +1,87 @@
+------------------window simple-----------------------------
+<window>
+<header>
+//le contenue exemple label .....
+<\header>
+<body>
+//le contenue exemple label .....
+<\body>
+<\window>
+
+
+------------------onglet-----------------------------
+
+
+<window>
+<header>
+//le contenue exemple label .....
+<\header>
+<onglet>
+<page>
+label:page1; //le nom de 1er page
+//le contenue de 1er page exemple label .....
+<\page>
+<page>
+label:page2; //le nom de 2eme page
+
+//le contenue de 2eme page exemple label .....
+<\page>
+
+
+<\onglet>
+<\window>
+
+
+-----------------les attribut de window------------------------
+<window>
+x:10;
+y:10;
+width:500;
+height:600;
+icon:image.png;          //logo de la fenetre dans taskbar (meme place logo de window et de recherche)
+background:pink;         //color
+border:20;               //taille de bordure de la fenetre
+name:formulaire;        //pas besoin car on peut ajouter label dans header
+screen:1;               //0 nothing 1 fullscrean 2 unfullscrean 3 maxmise 4 unmaximize 5 minimise
+                       
+opacity:1;             //entre 0 et 1 la visibilite de l'affichege de fenetre
+decorated: true;      //'utilisateur peut utiliser les fonctions pour les décorations
+resizable:true;       //l'utilisateur peut modifier la taille de la fenêtre
+deletable: true;     //l'utilisateur peut supprimer la fenêtre
+present: true;
+
+position:GTK_WIN_POS_NONE;      si la valeur = GTK_WIN_POS_NONE on utilise x et y de la position de la fenetre        
+GTK_WIN_POS_NONE - the position is not specified
+GTK_WIN_POS_CENTER - the window is centered on the screen
+GTK_WIN_POS_MOUSE - the window is positioned at the location of the mouse cursor
+GTK_WIN_POS_CENTER_ALWAYS - the window is always centered on the screen
+
+
+background_image:image.png; //background image de la fenetre
+type: 0 ou 1;    //0 simple window //1 popup (on ne peut pas modifier l'emplacement de window )
+<header>
+<\header>
+<body>
+<\body>
+<\window>
+
+
+
+
+
+
+
+
+
+dans fichier fenetre la ligne 188
+GtkWidget* create_header(fenetre* var, int bol)
+{
+    GtkWidget* header_bar = gtk_header_bar_new();
+    if (bol)
+        gtk_header_bar_set_show_close_button(GTK_HEADER_BAR(header_bar), TRUE);  //la fonction ajouter les bouton - + X    
+
+    gtk_window_set_titlebar(GTK_WINDOW(var->window), header_bar);
+
+    return (GtkWidget*)header_bar;
+
+}

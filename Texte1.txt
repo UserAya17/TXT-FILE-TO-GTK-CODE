@@ -1,0 +1,26 @@
+<window>
+    width:1000;
+    height:1500;
+    x:14;
+    y:200;
+    name:formulaire;
+    background_image:image.png;
+    type:0;
+    <header>
+           <image>
+           x:4;
+           y:7;
+           url:icon.png;
+           width:30;
+           height:30;
+          <\image>
+	  
+<\header>
+<body>
+<button>
+couleur:gray;
+label:Quitter;
+image_background:image.png;
+<\button>
+<\body>
+<\window>

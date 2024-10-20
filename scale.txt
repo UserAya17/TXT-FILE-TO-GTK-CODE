@@ -1,0 +1,19 @@
+<scale>
+x:100;
+y:100;
+width:100;
+height:100;
+valeur_init:50;
+min:0;
+max:100;
+step:1.0;  //le pas bach njorooh
+orientation:0; //horizontale
+orientation:1; //verticale
+position:1; //l position dyal ra9m fin aykon mktoub 
+position:2;  //1 en haut, 2 à gauche, 3 à droite et 4 en bas
+position:3;
+position:4;
+draw:true; //afficher ou non la valeur
+draw:false;
+digits:1; //ch7al mn ra9m wra lfassila , 0 , 1 , 2 ....
+<\scale>

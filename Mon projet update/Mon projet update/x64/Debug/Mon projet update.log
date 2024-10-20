@@ -1,0 +1,59 @@
+﻿  Main.c
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fenetre.h(132,53): warning C4244: 'fonction' : conversion de 'float' en 'gint', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fenetre.h(132,61): warning C4244: 'fonction' : conversion de 'float' en 'gint', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fenetre.h(138,51): warning C4133: 'fonction' : types incompatibles - de 'GtkWindow *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fenetre.h(147,36): warning C4013: 'gtk_window_minimize' non défini(e) ; extern retournant int pris par défaut
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fenetre.h(238,22): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fenetre.h(242,22): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fenetre.h(274,28): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fenetre.h(311,45): warning C4047: '=' : les niveaux d'indirection de 'int' et de 'char *' sont différents
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Box.h(93,40): warning C4244: 'fonction' : conversion de 'float' en 'gint', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Box.h(97,32): warning C4133: 'fonction' : types incompatibles - de 'GtkWidget *' à 'GtkBox *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Box.h(97,36): warning C4244: 'fonction' : conversion de 'float' en 'gint', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Box.h(99,36): warning C4133: 'fonction' : types incompatibles - de 'GtkWidget *' à 'GtkBox *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\RadioButton.h(66,69): warning C4133: 'fonction' : types incompatibles - de 'GtkToggleButton *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\RadioButton.h(131,18): warning C4133: 'initialisation' : types incompatibles - de 'GList *' à 'GSList *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\RadioButton.h(168,55): warning C4133: '=' : types incompatibles - de 'GtkRadioButton *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\RadioButton.h(175,58): warning C4133: '=' : types incompatibles - de 'GtkRadioButton *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\RadioButton.h(178,121): warning C4133: 'fonction' : types incompatibles - de 'GtkToggleButton *' à 'GtkButton *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\RadioButton.h(169,16): warning C4133: 'initialisation' : types incompatibles - de 'GSList *' à 'GList *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\CheckButton.h(35,61): warning C4133: 'fonction' : types incompatibles - de 'GtkToggleButton *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\CheckButton.h(106,18): warning C4133: 'initialisation' : types incompatibles - de 'GList *' à 'GSList *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\SimpleButton.h(74,42): warning C4133: 'fonction' : types incompatibles - de 'GtkWidget *' à 'GtkButton *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\SimpleButton.h(89,61): warning C4133: 'fonction' : types incompatibles - de 'GtkToggleButton *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\zonedetexte.h(34,19): warning C4267: 'initialisation' : conversion de 'size_t' en 'gint', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\zonedetexte.h(205,18): warning C4133: 'initialisation' : types incompatibles - de 'GList *' à 'GSList *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Image.h(42,48): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Image.h(42,59): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Image.h(47,48): warning C4244: 'fonction' : conversion de 'float' en 'gint', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Image.h(47,55): warning C4244: 'fonction' : conversion de 'float' en 'gint', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Image.h(64,22): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Image.h(68,22): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Image.h(72,26): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Image.h(76,27): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\combobox.h(227,18): warning C4133: 'initialisation' : types incompatibles - de 'GList *' à 'GSList *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\combobox.h(262,18): warning C4133: 'initialisation' : types incompatibles - de 'GList *' à 'GSList *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\combobox.h(297,18): warning C4133: 'initialisation' : types incompatibles - de 'GList *' à 'GSList *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\label.h(69,16): warning C4566: le caractère représenté par le nom de caractère universel '\uFFFD' ne peut pas être représenté dans la page de codes actuelle (1252)
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\frame.h(103,17): warning C4133: 'return' : types incompatibles - de 'Frame_object *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\prog_bar.h(31,23): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\prog_bar.h(42,48): warning C4133: '=' : types incompatibles - de 'GtkWidget *' à 'GtkProgressBar *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\prog_bar.h(66,31): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\prog_bar.h(68,27): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\scale.h(27,23): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\scale.h(40,19): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\scale.h(93,27): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Menu.h(67,58): warning C4133: 'fonction' : types incompatibles - de 'GtkWidget *' à 'GtkMenuBar *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Menu.h(68,58): warning C4133: 'fonction' : types incompatibles - de 'GtkWidget *' à 'GtkMenuBar *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Menu.h(69,58): warning C4133: 'fonction' : types incompatibles - de 'GtkWidget *' à 'GtkMenuBar *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Menu.h(165,14): warning C4098: 'traiter_subMenu' : fonction 'void' retournant une valeur
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fichier.h(95,70): warning C4133: '=' : types incompatibles - de 'GtkWidget *' à 'ToogleButton *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fichier.h(97,48): warning C4133: 'fonction' : types incompatibles - de 'ToogleButton **' à 'GtkWidget **'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fichier.h(99,80): warning C4133: 'fonction' : types incompatibles - de 'ToogleButton *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fichier.h(101,53): warning C4133: 'fonction' : types incompatibles - de 'ToogleButton *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fichier.h(335,58): warning C4020: 'set_propriety_prog' : paramètres réels trop nombreux
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fichier.h(338,72): warning C4133: 'fonction' : types incompatibles - de 'GtkProgressBar *' à 'GtkWidget *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fichier.h(350,44): warning C4133: '=' : types incompatibles - de 'GtkWidget *' à 'Frame_object *'
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\Fichier.h(268,21): warning C4101: 'tmp' : variable locale non référencée
+C:\Users\dell\source\repos\Mon projet update\Mon projet update\RadioButton.h(196): warning C4716: 'show' : doit retourner une valeur
+  Mon projet update.vcxproj -> C:\Users\dell\source\repos\Mon projet update\x64\Debug\Mon projet update.exe

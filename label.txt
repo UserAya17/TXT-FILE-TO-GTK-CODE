@@ -1,0 +1,66 @@
+/***********************label***********************/
+<label>
+x: ;
+y: ;
+height: ;
+width: ;
+text: ;
+color: ;
+taille: ;
+souligner:single|double|low|none;
+style:italic|normal|oblique;
+police:arial|verdana|calibri|....;
+weight:bold|normal;
+bgcolor: ;   
+ColorLigne: ;
+barrer:false|true;
+colorBar: ;
+selection:0|1; // 0->false 1->true
+alignement = 0|1|2|3; // 0->left 1->right 2->center 3->fill
+<\label>
+
+
+
+/***********************combo***********************/
+<combo>
+x: ;
+y: ;
+height: ;
+width: ;
+item: ;//pour les options chaque option = item
+direction:0|1; //0->horizontale 1->verticale
+entry:0|1; //0->sans entry 1->avec entry
+<\combo>
+
+
+
+
+
+/***********************ZONETEXT*********************/
+<zonetxt>
+x: ;
+y: ;
+height: ;
+width: ;
+editable:true|false;
+visible:true|false;
+icone:mail-send|edit-copy|...;
+maxCar: ;
+invisibleCar: ;//char
+text: ;//value dans html
+placeholder: ;
+<\zonetxt>
+
+
+
+
+
+/***********************TEXTVIEW*********************/
+<textview>
+x: ;
+y: ;
+width: ;
+height: ;
+editable:true|false;
+lmargin: ;//indentation gauche->entier
+<\textiew>

@@ -1,0 +1,60 @@
+/***********************************************Button***************************************/
+<button>
+label:le nom du button;
+name:class utiliser pour CSS;
+reliefMode:1|2|3;  1: le button normale 2:le bouton est en relief uniquement sur la moitié supérieure 3:bouton est plat
+sensitive:TRUE|FALSE; TRUE: le button peut étre utiliser FALSE: disable  --par défaut : TRUE
+width:;
+alignementHorizental:1|2|3|4;  1:center 2:aligner à gauche 3:aligner à droite  --par défaut : 1
+alignementVertical:1|2|3|4; 1:center 2:aligner à gauche 3:aligner à droite 4: prend tous l'espace vertical disponible --par défaut : 1
+couleur:; couleur de background du button
+height:;
+x:;
+y:;
+signal:; le nom de la fonction du signal associé
+image:; nom du l'image ajouter au button 
+image_background:; nom image du background
+position_image:1|2|3|4;  position d'une image dans button 1:gauche 2:droite 3:haut 4:bas  --par défaut : 4
+<\button>
+/***********************************************checkbutton***************************************/
+<Checkbutton>
+x:;
+y:;
+label:_"le titre"; //il faut commencer par _ pour les memnonic
+active:TRUE|False; //le button soit séléctionner par défaut  ou non
+sensitive:TRUE|False;  //comme disable en html
+<\Checkbutton>
+/***********************************************Menu***************************************/
+<BarreMenu>
+direction:1|2|3; 1:gauche à droite 2:doite à gauche 3:haut vers le bas
+x:;
+y:;
+<item>
+label:_"titre";
+icon:; nom de l'icon
+<subMenu> //on indique qu'il ya un sous menu
+<item> //item de sous menu
+label:B1;
+<\item>
+<item>
+label:B2;
+<\item>
+<item>
+label:B3;
+<\item>
+<\subMenu>
+<item>
+label:C;
+<\item>
+<\BarreMenu>
+/***********************************************Button_radio***************************************/
+<ButtonRadioGroupe>
+<ButtonRadio>
+label:_"le titre"; //il faut commencer par _ pour les memnonic
+x:;
+y:;
+active:TRUE|False; //le button soit séléctionner par défaut  ou non
+group:Pere|item; //le premier button est toujours Pere les items suivant sont item
+sensitive:TRUE|False;  //comme disable en html
+<\ButtonRadio>
+<\ButtonRadioGroupe>

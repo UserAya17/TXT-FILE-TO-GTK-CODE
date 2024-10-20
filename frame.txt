@@ -1,0 +1,12 @@
+<frame>
+x:100;
+y:100;
+label:test label;
+width:200;
+height:200;
+type:GTK_SHADOW_NONE; ***********la fonction dyal type ma khdamach, soblama diroh
+type:GTK_SHADOW_IN;
+type:GTK_SHADOW_OUT;
+type:GTK_SHADOW_ETCHED_IN;
+type:GTK_SHADOW_ETCHED_OUT;
+<\frame>

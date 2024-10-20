@@ -1,0 +1,11 @@
+<progressbar>
+x:100;
+y:100;
+label:test label;
+fraction:0,5;  // ch7al aykoun fiha
+vitesse:50;    //ila kant katmchi w tji () kandiro liha vitess
+step:0,01;     //pas dyal ila kant atb9a tzad 
+etat:parcours;  //chno ghatkon kadir  //atbda mn 0 7tal fraction
+etat:transaction;   //atbda mn 0 l fraction w tb9a t3awdha
+etat:deplacement;  	//atb9a ghada jaya b7al
+<\progressbar>
